@@ -21,6 +21,8 @@ body {
 .my_footer {
     background-color: #efefef;
     height: 60px;
+    width: 100%;
+    bottom:0;
 }
 
 .my_footer p{
@@ -43,10 +45,32 @@ padding-top: 20px;
     height : auto;
 }
 
+.my_product_image{
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.my_product_image1{
+    min-width: 200px;
+    min-height: 400px;
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.my_cat_banner{
+min-width: 1200px;
+    min-height: 400px;
+    max-width: 1200px;
+    max-height: 400px;
+}
+
 .my_title {
     font-size: 16px;
     text-transform: uppercase;
      letter-spacing : .2em;
+     font-weight: bold;
 }
 
 .my_image_padding {
